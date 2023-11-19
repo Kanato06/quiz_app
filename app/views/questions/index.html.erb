@@ -1,0 +1,14 @@
+
+<h1>野球クイズ</h1>
+<% @questions.each do |question| %>
+  <section class="question">
+    <h2><%= question.content %></h2>
+    <% question.choices.each do |choice| %>
+      <!-- data-correct属性を追加 -->
+      <button class="choice" data-correct="<%= choice.correct %>" onclick="selectChoice(this)">
+        <%= choice.content %>
+      </button>
+    <% end %>
+    <p class="result" style="display: none;"></p>
+  </section>
+<% end %>

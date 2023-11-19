@@ -1,0 +1,6 @@
+<%# 各質問とそれに関連する選択肢を表示 %>
+
+<h1><%= @question.content %></h1>
+<% @question.choices.each do |choice| %>
+  <p><%= choice.content %></p>
+<% end %>
