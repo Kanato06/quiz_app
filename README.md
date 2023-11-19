@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+*クイズアプリ - Ruby on Rails*
+このリポジトリは、Ruby on Railsを使用して作成されたクイズアプリケーションです。ユーザーは、野球に関する様々な質問に回答し、自身のスコアを確認することができます。
 
-Things you may want to cover:
+特徴
+野球に関する質問と複数の選択肢を提供
+選択肢の選択による即時の正解/不正解フィードバック
+ユーザーごとのスコア計算と表示
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+開発環境
+Ruby 3.2.2
+Rails 7.1.2
+SQLite3 (データベース)
