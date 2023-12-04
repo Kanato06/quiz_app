@@ -64,5 +64,6 @@ $ rails server
 6. アプリケーションへのアクセス  
 ブラウザで 'http://localhost:3000' にアクセスし、アプリケーションを使用します。
 
-7. スクリーンショット
+## スクリーンショット
+  
 ![Example Image](images/screenshot.png)
