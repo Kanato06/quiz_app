@@ -63,7 +63,15 @@ $ rails server
 
 6. アプリケーションへのアクセス  
 ブラウザで 'http://localhost:3000/users/sign_in' にアクセスし、アプリケーションを使用します。
+  
+## ユーザ登録  
+  
+![Example Image](images/registrations_screenshot.png)
+  
+## ログイン  
+  
+![Example Image](images/login_screenshot.png)
 
-## スクリーンショット
+## クイズ
   
 ![Example Image](images/screenshot.png)
