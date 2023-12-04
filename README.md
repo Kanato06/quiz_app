@@ -50,6 +50,8 @@ $ bundle install
 データベースをセットアップします。
 ```
 $ rails db:migrate
+```
+```
 $ rails db:seed
 ```
 
