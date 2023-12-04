@@ -28,7 +28,7 @@
 ・SQLite3（データベース）  
   
 ## セットアップ手順  
-1. リポジトリのクローン  
+### 1. リポジトリのクローン  
 まず、GitHubからこのリポジトリをクローンします。  
 ```
 $ git clone https://github.com/Kanato06/quiz_app.git
