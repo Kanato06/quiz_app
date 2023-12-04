@@ -1,6 +1,7 @@
 # アプリケーションのルーティング（URLとアクションのマッピング）を定義
 
 Rails.application.routes.draw do
+  devise_for :users, skip: [:passwords]
   root 'questions#index'
 
   get "up" => "rails/health#show", as: :rails_health_check

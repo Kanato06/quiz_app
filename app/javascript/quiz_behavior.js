@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('turbo:load', function() {
     let totalScore = 0;
     let totalQuestions = document.querySelectorAll('.question').length;
     let answeredQuestions = 0;
